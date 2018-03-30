@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     {{ page.url }}
-    {% unless page.url contains '' %}
+    {% unless page.title contains 'Home' %}
       {% include navigation_top.html %}
     {% endunless %}
     {{content}}
