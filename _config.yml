@@ -32,7 +32,7 @@ baseurl: /tpvn/page
 # defaults (to simplify front matter)
 defaults:
   - scope:
-      path: ""
+      path: "/page"
     values:
       layout: default
 
