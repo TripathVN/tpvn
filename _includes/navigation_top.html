@@ -1,5 +1,5 @@
 <div class="top-nav-wrapper">
-    <a href="index.html" title="Tripath Viet Nam" class="nav-logo">
+    <a href="{{ "/" | absolute_url }}" title="Tripath Viet Nam" class="nav-logo">
         <img class="nav-logo__img" src="{{"/images/tpvn/tpvn-logo.png" | absolute_url }}" alt="Tripath logo">
     </a>
     <div class="nav-menu">
@@ -38,8 +38,8 @@
     </div>
 </div>
 <div class="tpvn-nav-wrapper">
-    <a href=""{{ "/" | absolute_url }}"" title="Tripath Viet Nam" class="nav-logo">
-        <img class="nav-logo__img" src="images/tpvn/tpvn-logo.png" alt="Tripath logo">
+    <a href="{{ "/" | absolute_url }}" title="Tripath Viet Nam" class="nav-logo">
+        <img class="nav-logo__img" src="{{"/images/tpvn/tpvn-logo.png" | absolute_url }}" alt="Tripath logo">
     </a>
     <div class="nav-menu">
         <div class="language-option">
@@ -56,7 +56,7 @@
         </div>
         <div class="wrapper organization-content">
             <div class="organization-box">
-                <a href=""{{ "/page/about" | absolute_url }}"" class="about-us {% if page.url contains 'about'%}actived{% endif %}">
+                <a href="{{ "/page/about" | absolute_url }}" class="about-us {% if page.url contains 'about'%}actived{% endif %}">
                     <span class="title">About us</span>
                     <span class="category-text">Overview & Organization</span>
                 </a>
