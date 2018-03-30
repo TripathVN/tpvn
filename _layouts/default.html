@@ -2,6 +2,7 @@
 <html lang="en">
   {% include head.html %}
   <body>
+    {{ page.url }}
     {% unless page.url contains 'index' %}
       {% include navigation_top.html %}
     {% endunless %}
