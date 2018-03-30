@@ -15,7 +15,8 @@
   <meta property="og:locale" content="en_US" />
   <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}","author":{"@type":"Person","name":"{{ site.author }}"},"description":"{{ site.description }}","url":"{{ page.url | absolute_url }}"}</script>
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
+  <!--Fira sans FONT-->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,400,400i,600,700,800&amp;subset=vietnamese" rel="stylesheet">
 
-  {% include google-analytics.html %}
+  <link rel="stylesheet" href="{{ "/css/main.css" | absolute_url }}">
 </head>
