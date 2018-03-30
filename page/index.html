@@ -3,12 +3,11 @@ layout: default
 title: Home
 ---
 <div class="wrapper">
-    ![markdown icon](images/markdown.png)
     <div class="tpvn-index">
         <header class="tpvn-header">
             <div class="logo">
                 <a href="index.html" title="TPVN">
-                    <img src="images\logo--Text.png" alt="logo text">
+                    <img src="{{"/images/logo--Text.png" | absolute_url }}" alt="logo text">
                 </a>
             </div>
         </header>
@@ -24,19 +23,19 @@ title: Home
             </div>
             <div class="organization-content">
                 <div class="organization-box">
-                    <a href="about.html" class="about-us">
+                    <a href="{{ "/page/about" | absolute_url }}" class="about-us">
                         <span class="title">About us</span>
                         <span class="category-text">Overview & Organization</span>
                     </a>
                 </div>
                 <div class="organization-box">
-                    <a href="work.html" class="work">
+                    <a href="{{ "/page/work" | absolute_url }}" class="work">
                         <span class="title">Work</span>
                         <span class="category-text">Bussiness area</span>
                     </a>
                 </div>
                 <div class="organization-box">
-                    <a href="contact.html" class="contact">
+                    <a href="{{ "/page/contact" | absolute_url }}" class="contact">
                         <span class="title">Contact</span>
                         <span class="category-text">Get in touch</span>
                     </a>
